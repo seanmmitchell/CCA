@@ -1,0 +1,14 @@
+{
+    "credVuln-1": {
+        "name": "Credential Security",
+        "desc": "Checks for usage of plaintext, MD5, or Type 7 credential protection.",
+        "match": "[\\w$]+",
+        "exec": "SecBasic/credVuln-1.py"
+    },
+    "webVuln-1": {
+        "name": "Web Server Security",
+        "desc": "Checks to make sure that the web server on the device is disabled.",
+        "match": "\\nip\\shttp\\s(server|secure-server)",
+        "exec": "SecBasic/webVuln-1.py"
+    }
+}
