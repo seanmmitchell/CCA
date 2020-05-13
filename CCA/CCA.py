@@ -322,7 +322,7 @@ def checkDevice(ip, port, user, passwd):
         if hostname == "":
             Out(OutSev.Error, "Failed to Connect to \"%s:%s\"." % (ip, port))
         else: 
-            Out(OutSev.Error, "Failed to Connect to \"%s\" (%s:%s)," % (hostname, ip, port))
+            Out(OutSev.Error, "Failed to Connect to \"%s\" (%s:%s)." % (hostname, ip, port))
 
 if not addr == "":
     Out(OutSev.Info, "Starting on \"%s:%s\"..." % (addr, port))
