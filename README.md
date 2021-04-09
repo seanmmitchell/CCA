@@ -9,8 +9,8 @@
 <p>In an AT template, "^" will not work, instead you must use "\n".</p>
 <br>
 <h1>Current project status is...</h1>
-<h3>Open</h3>
-<p>I will continue updating it till I am happy with it!</p>
+<h3>Closed</h3>
+<p>Below are features I believe this application could use, but I do not have time to implement.</p>
 <h3>Tasks</h3>
 <ul>
 <li>Improve AT handling and parsing system</li>
