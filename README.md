@@ -1,5 +1,5 @@
 <h1>This project is...</h1>
-<p>A Python based Cisco IOS configuration analyzer.</p>
+<p>A Python based Cisco IOS configuration analyzer. It is capable of automatically SSHing into multiple devices for the purpose of downloading and analyzing configurations.</p>
 <br>
 <h3>Terms</h3>
 <p>AT - Analysis Template</p>
